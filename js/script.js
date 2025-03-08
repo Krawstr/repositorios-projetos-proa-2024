@@ -21,7 +21,7 @@ function carregarProjetos() {
 
     listaDeProjetos.forEach(projeto => {
         let botao = document.createElement("a");
-        botao.href = `../pages/${projeto}`;
+        botao.href = `./pages/${projeto}`;
         botao.innerText = projeto.replace(".html", ""); 
         botao.classList.add("btn");
 
