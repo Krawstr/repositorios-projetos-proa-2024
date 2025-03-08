@@ -1,0 +1,36 @@
+#projetos{
+    display: flex;
+    gap: 10px; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container{
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    width: 210px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: darkred;
+}
